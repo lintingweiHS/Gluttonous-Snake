@@ -1,2 +1,2 @@
 # myJavaScript
-贪吃蛇项目
+a javaScript project
