@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.startPage{
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    position: absolute;
+}
+.startBtn{
+    width: 200px;
+    height: 170px;
+    background-image: url('img/startGame.png');
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    cursor: pointer;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    background-image: url('img/bg.jpg');
+    background-size: 100% 100%;
+    position: relative;
+}
+.left{
+    width: 24%;
+    height: 100%;
+    position: absolute;
+ 
+
+}
+.left img{
+    margin-left: 50px;
+    margin-top: 50px;
+    cursor: pointer;
+    display: none;
+
+}
+.main{
+    position: relative;
+    left: 25%;
+    width: 50%;
+    height: 100%;
+
+}
+.header{
+    width: 100%;
+    height: 30%;
+
+}
+.score{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.content{
+    position: absolute;
+    width: 78.5%;
+    height: 33%;
+    left: 10.5%;
+
+}
+.loser{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+.con{
+    width: 30%;
+    height: 40%;
+    background-image: url("img/startP.jpg");
+    background-size: 100% 100%;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    border-radius: 20px;
+}
+.close{
+    width: 10%;
+    height: 10%;
+    background-image: url("img/closeBtn.png");
+    background-size: 100%  100%;
+    position: absolute;
+    right: 0px;
+}
+.loserScore{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    color: #740740;
+    left: 40%;
+    top: 43%;
+    cursor: pointer;  
+}
+.food{
+    background-image: url('img/apple.png');
+    background-size: 100% 100%;
+}
+.head{
+    background-image: url('img/head.png');
+    background-size: 100% 100%;
+}
+.body{
+    background-image: url('img/body.png');
+    background-size: 100% 100%;
+}
