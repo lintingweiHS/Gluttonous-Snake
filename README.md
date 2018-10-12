@@ -1,2 +1,2 @@
-# myJavaScript
+Gluttonous Snake 
 a javaScript project
