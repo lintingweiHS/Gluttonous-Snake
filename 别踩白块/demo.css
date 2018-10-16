@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin:0;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    width: 400px;
+    height: 600px;
+    border:1px solid black;
+    position: relative;
+    overflow: hidden;
+    margin: 50px auto; 
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+}
+.wrapper .main{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -150px;
+    display: none;
+}
+.wrapper .main .row{
+    width:100%;
+    height: 25%;
+    margin-top: 1px;    
+}
+.wrapper .main .row>div{
+    float: left;
+    width:25%;
+    height: 100%;
+}
+.anniu{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 200;
+}
+p:nth-of-type(1)>button{
+    background: red;
+}
+p:nth-of-type(2)>button{
+    background: orange;
+}
+button{
+    width:130px;
+    height: 40px;
+    background: blue;
+    border:none;
+    border-radius: 15px;
+    color: white;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
